@@ -23,7 +23,7 @@ export default function NavbarHome() {
           Home
         </Navbar.Link>
         <Navbar.Link as={Link} href="#">
-          About
+          Profile
         </Navbar.Link>
         <Navbar.Link href="#">Shop</Navbar.Link>
         <Navbar.Link href="#">Galery</Navbar.Link>

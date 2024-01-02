@@ -1,5 +1,6 @@
 import { Button } from "flowbite-react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Jumbotron() {
   return (
@@ -17,11 +18,17 @@ export default function Jumbotron() {
 
         <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="col-span-1 grid justify-items-end">
-            <Button className="custom-bg-color px-2 py-1">Sign In</Button>
+            <Link to={"/login"}>
+              <Button className="custom-bg-color px-2 py-1">Sign In</Button>
+            </Link>
           </div>
 
           <div className="col-span-1">
-            <Button color="light" className="px-2 py-1">Sign Up</Button>
+            <Link to={"/register"}>
+              <Button color="light" className="px-2 py-1">
+                Sign Up
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
