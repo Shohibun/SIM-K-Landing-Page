@@ -20,14 +20,14 @@ export default function Superiority() {
                 Best places to rent anime clothes!
               </h1>
 
-              <p className="text-base mt-3">
+              <p className="text-sm mt-3">
                 Rent anime clothes in (Your location) with Liosa Cosplay <br />
                 guarantees cheaper prices than others, new clothing conditions,{" "}
                 <br />
                 and the best quality service for tenants.
               </p>
 
-              <List className="text-black mt-5">
+              <List className="text-black text-sm mt-5">
                 <List.Item>
                   The condition of the clothes is still new.
                 </List.Item>

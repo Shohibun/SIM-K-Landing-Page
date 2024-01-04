@@ -11,7 +11,7 @@ export default function FAQ() {
               Frequently Asked Question
             </h1>
 
-            <p className="text-lg">
+            <p className="text-base">
               Some frequently asked questions by customers.
             </p>
           </div>
@@ -19,11 +19,11 @@ export default function FAQ() {
           <div className="col-span-1">
             <Accordion>
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="text-sm">
                   Does it need to be washed if the costume will be returned?{" "}
                 </Accordion.Title>
                 <Accordion.Content>
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">
+                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Nostrum, officiis aspernatur soluta fugiat eos pariatur at,
                     porro nam officia cum, sequi libero nobis. Neque, animi
@@ -35,11 +35,11 @@ export default function FAQ() {
                 </Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="text-sm">
                   Is it okay to return costumes too late?
                 </Accordion.Title>
                 <Accordion.Content>
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">
+                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Alias ducimus fugit saepe debitis laboriosam eum eos quas
                     praesentium rem amet, velit, voluptatum ab qui dicta, magnam
@@ -53,12 +53,12 @@ export default function FAQ() {
                 </Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="text-sm">
                   If the customer likes the costume used, is it allowed to buy
                   it?
                 </Accordion.Title>
                 <Accordion.Content>
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">
+                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Rerum dolore facere soluta iste illo. Aperiam illum culpa
                     eveniet consequatur commodi veritatis voluptatum, blanditiis

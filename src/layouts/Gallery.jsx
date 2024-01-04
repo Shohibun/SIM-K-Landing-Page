@@ -1,14 +1,14 @@
 import React from "react";
 import NavbarHome from "../components/Navbar";
 import Footer from "../components/Footer";
-import Jumbotron from "../pages/Jumbotron";
 import GalleryContent from "../pages/Gallery-Content";
+import GalleryJumbotron from "../pages/Gallery-Jumbotoron";
 
 export default function Gallery() {
   return (
     <>
       <NavbarHome />
-      <Jumbotron />
+      <GalleryJumbotron />
       <GalleryContent />
       <Footer />
     </>

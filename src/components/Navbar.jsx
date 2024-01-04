@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Navbar } from "flowbite-react";
 import Logo from "../images/logo.png";
 
@@ -18,12 +17,12 @@ export default function NavbarHome() {
           <Navbar.Link href="/" className="font-bold" active>
             Home
           </Navbar.Link>
-          <Navbar.Link as={Link} href="#">
+          <Navbar.Link href="/profile">
             Profile
           </Navbar.Link>
-          <Navbar.Link href="#">Shop</Navbar.Link>
+          <Navbar.Link href="/shop">Shop</Navbar.Link>
           <Navbar.Link href="/gallery">Galery</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link href="/contact">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>

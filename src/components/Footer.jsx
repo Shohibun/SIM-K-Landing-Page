@@ -20,31 +20,31 @@ export default function Footer() {
 
           <div className="col-span-1 flex justify-end">
             <div className="">
-              <h5 className="text-white font-bold text-xl">ABOUT</h5>
+              <h5 className="text-white font-bold text-base">ABOUT</h5>
 
-              <p className="text-white text-lg">Cosplayer</p>
+              <p className="text-white text-sm">Cosplayer</p>
 
-              <p className="text-white text-lg">Accessories</p>
+              <p className="text-white text-sm">Accessories</p>
             </div>
           </div>
 
           <div className="col-span-1 flex justify-end">
             <div className="">
-              <h5 className="text-white font-bold text-xl">FOLLOW US</h5>
+              <h5 className="text-white font-bold text-base">FOLLOW US</h5>
 
-              <p className="text-white text-lg">Instagram</p>
+              <p className="text-white text-sm">Instagram</p>
 
-              <p className="text-white text-lg">Discord</p>
+              <p className="text-white text-sm">Discord</p>
             </div>
           </div>
 
           <div className="col-span-1 flex justify-end">
             <div className="">
-              <h5 className="text-white font-bold text-xl">LEGAL</h5>
+              <h5 className="text-white font-bold text-base">LEGAL</h5>
 
-              <p className="text-white text-lg">Privacy Policy</p>
+              <p className="text-white text-sm">Privacy Policy</p>
 
-              <p className="text-white text-lg">Term & Condition</p>
+              <p className="text-white text-sm">Term & Condition</p>
             </div>
           </div>
         </div>

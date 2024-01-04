@@ -17,10 +17,10 @@ export default function Ranking() {
               imgAlt="Azeyy"
               imgSrc={UserOne}
             >
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Azeyy
               </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Azeyy is a famous celebrity and cosplayer from China.  Azeyy's Instagram account is @azeycos and at the time of writing it already has 193 thousand followers. 
               </p>
             </Card>
@@ -32,10 +32,10 @@ export default function Ranking() {
               imgAlt="Senyamiku"
               imgSrc={UserTwo}
             >
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Senyamiku
               </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Senyamiku is a famous celebrity and cosplayer from China.  Senyamiku's Instagram account is @senyamiku and at the time of writing it already has 1 million followers. 
               </p>
             </Card>
@@ -47,10 +47,10 @@ export default function Ranking() {
               imgAlt="Tomiaa"
               imgSrc={UserThree}
             >
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Tomiaa
               </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Tomiaa is a famous celebrity and cosplayer from South Korea.  Tomiaa's Instagram account is @tomiaa and at the time of writing it already has 40 thousand followers. 
               </p>
             </Card>

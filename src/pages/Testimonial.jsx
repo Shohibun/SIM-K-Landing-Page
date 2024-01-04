@@ -24,7 +24,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Jefri Nichol
               </h5>
 
@@ -74,7 +74,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -87,7 +87,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Wulan
               </h5>
 
@@ -129,7 +129,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -142,7 +142,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Albert Junior
               </h5>
 
@@ -192,7 +192,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -206,7 +206,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Krishima Atsushi
               </h5>
 
@@ -256,7 +256,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -269,7 +269,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Hinata Hyuga
               </h5>
 
@@ -303,7 +303,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>
@@ -316,7 +316,7 @@ export default function Testimonial() {
                 className="w-48 rounded-full mx-auto"
               />
 
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Loid Forger
               </h5>
 
@@ -366,7 +366,7 @@ export default function Testimonial() {
                 </span>
               </div>
 
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-sm text-gray-700 dark:text-gray-400">
                 Here are the biggest enterprise technology acquisitions of 2021
                 so far, in reverse chronological order.
               </p>

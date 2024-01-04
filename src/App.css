@@ -22,6 +22,14 @@
   width: 100%;
 }
 
+.custom-bg-jbt-fiture {
+  background-image: url("./images/bg-jbt-fiture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
 .custom-bg-auth {
   height: 100vh;
   width: 100%;

@@ -5,7 +5,7 @@ export default function GalleryContent() {
   return (
     <div className="container mt-28">
       <h1 className="text-center font-bold text-4xl custom-font-color mb-10">
-        Gallery Loisa Cosplay
+        Gallery Liosa Cosplay
       </h1>
 
       <div className="grid grid-cols-2">
