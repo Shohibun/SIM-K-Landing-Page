@@ -1,6 +1,4 @@
-import { Button } from "flowbite-react";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Jumbotron() {
   return (
@@ -15,22 +13,6 @@ export default function Jumbotron() {
           Liosa cospay also provides costume rental places for those who want to
           demonstrate the characters they love.
         </p>
-
-        <div className="grid grid-cols-2 gap-4 mt-4">
-          <div className="col-span-1 grid justify-items-end">
-            <Link to={"/login"}>
-              <Button className="custom-bg-color px-2 py-1">Sign In</Button>
-            </Link>
-          </div>
-
-          <div className="col-span-1">
-            <Link to={"/register"}>
-              <Button color="light" className="px-2 py-1">
-                Sign Up
-              </Button>
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );

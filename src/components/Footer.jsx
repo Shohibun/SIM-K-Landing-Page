@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1">
             <div className="grid grid-cols-8">
               <div className="col-span-2">
-                <img src={Logo} alt="Logo" className="w-100" />
+                <img src={Logo} alt="Logo" className="w-full" />
               </div>
 
               <div className="col-span-6">

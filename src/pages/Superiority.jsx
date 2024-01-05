@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../images/bg-sp.jpg";
+import Photo from "../images/bg-sp.jpeg";
 import { List } from "flowbite-react";
 
 export default function Superiority() {
@@ -10,7 +10,7 @@ export default function Superiority() {
           Superiority
         </h1>
         <div className="grid grid-cols-2 gap-4 mt-10">
-          <div className="col-span-1">
+          <div className="col-span-1 flex justify-end">
             <img src={Photo} alt="background" className="rounded" />
           </div>
 
