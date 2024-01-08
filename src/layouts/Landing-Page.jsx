@@ -6,7 +6,7 @@ import Superiority from "../pages/Superiority";
 import WhyUs from "../pages/WhyUs";
 import Testimonial from "../pages/Testimonial";
 import FAQ from "../pages/FAQ";
-import Footer from "../components/Footer";
+import FooterHome from "../components/Footer";
 import About from "../pages/About";
 
 export default function LandingPage() {
@@ -20,7 +20,7 @@ export default function LandingPage() {
       <Testimonial />
       <FAQ />
       <Ranking />
-      <Footer />
+      <FooterHome />
     </>
   );
 }

@@ -9,12 +9,12 @@ export default function Superiority() {
         <h1 className="text-center font-bold text-4xl custom-font-color">
           Superiority
         </h1>
-        <div className="grid grid-cols-2 gap-4 mt-10">
-          <div className="col-span-1 flex justify-end">
-            <img src={Photo} alt="background" className="rounded" />
+        <div className="grid md:grid-cols-2 gap-4 mt-10">
+          <div className="md:col-span-1 flex justify-end">
+            <img src={Photo} alt="background" className="rounded mx-auto md:w-full w-4/5" />
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <div className="ml-5">
               <h1 className="text-2xl font-bold">
                 Best places to rent anime clothes!

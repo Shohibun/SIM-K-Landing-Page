@@ -6,11 +6,12 @@ export default function ShopJumbotron() {
       <div className="text-center">
         <h1 className="text-white font-bold text-6xl">SHOP</h1>
 
-        <p className="text-sm text-white mt-2">
-          This store page contains souvenirs or accessories related to anime. 
-          <br />
-          Here the customer can buy whatever he wants from bracelets to bags. 
-        </p>
+        <div className="md:w-7/12 w-10/12 mx-auto">
+          <p className="text-sm text-white mt-2">
+            This store page contains souvenirs or accessories related to anime.
+            Here the customer can buy whatever he wants from bracelets to bags.
+          </p>
+        </div>
       </div>
     </div>
   );

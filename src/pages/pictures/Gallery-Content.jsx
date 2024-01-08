@@ -8,180 +8,180 @@ export default function GalleryContent() {
         Gallery Liosa Cosplay
       </h1>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-1.jpeg")}
+            src={require("../../images/photo-1.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-2.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-3.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-4.jpeg")}
+            src={require("../../images/photo-2.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-5.jpeg")}
+            src={require("../../images/photo-3.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-6.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-7.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-8.jpeg")}
+            src={require("../../images/photo-4.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-9.jpeg")}
+            src={require("../../images/photo-5.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-10.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-11.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-12.jpeg")}
+            src={require("../../images/photo-6.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-13.jpeg")}
+            src={require("../../images/photo-7.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-14.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-      </div>
-
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-15.jpeg")}
-            alt="photoGallery"
-            className="w-full h-full"
-          />
-        </div>
-
-        <div className="col-span-1">
-          <img
-            src={require("../images/photo-16.jpeg")}
+            src={require("../../images/photo-8.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-17.jpeg")}
+            src={require("../../images/photo-9.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-18.jpeg")}
+            src={require("../../images/photo-10.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="col-span-1">
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-19.jpeg")}
+            src={require("../../images/photo-11.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />
         </div>
 
-        <div className="col-span-1">
+        <div className="md:col-span-1">
           <img
-            src={require("../images/photo-20.jpeg")}
+            src={require("../../images/photo-12.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+      </div>
+
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-13.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-14.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+      </div>
+
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-15.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-16.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+      </div>
+
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-17.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-18.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+      </div>
+
+      <div className="grid md:grid-cols-2">
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-19.jpeg")}
+            alt="photoGallery"
+            className="w-full h-full"
+          />
+        </div>
+
+        <div className="md:col-span-1">
+          <img
+            src={require("../../images/photo-20.jpeg")}
             alt="photoGallery"
             className="w-full h-full"
           />

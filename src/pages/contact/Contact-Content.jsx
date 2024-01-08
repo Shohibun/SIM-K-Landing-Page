@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../images/bg-contact.png";
+import Background from "../../images/bg-contact.png";
 import { Button, Label, TextInput } from "flowbite-react";
 
 export default function ContactContent() {
@@ -64,8 +64,8 @@ export default function ContactContent() {
         </div>
 
         <form className="flex flex-col gap-4 w-full mt-10">
-          <div className="grid grid-cols-2 gap-6">
-            <div className="col-span-1">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="md:col-span-1">
               <div>
                 <div className="mb-2 block">
                   <Label htmlFor="username" value="Username" />
@@ -80,7 +80,7 @@ export default function ContactContent() {
                 <TextInput
                   id="email"
                   type="email"
-                  placeholder="name@flowbite.com"
+                  placeholder="liosacosplay@gmail.com"
                   required
                   shadow
                 />
@@ -94,7 +94,7 @@ export default function ContactContent() {
               </div>
             </div>
 
-            <div className="col-span-1">
+            <div className="md:col-span-1">
               <div>
                 <div className="mb-2 block">
                   <Label htmlFor="message" value="Message" />

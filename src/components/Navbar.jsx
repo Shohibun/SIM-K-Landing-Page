@@ -20,13 +20,17 @@ export default function NavbarHome() {
           <Navbar.Link href="/profile" className="mt-3">
             Profile
           </Navbar.Link>
-          <Navbar.Link href="/shop" className="mt-3">Shop</Navbar.Link>
-          <Navbar.Link href="/gallery" className="mt-3">Galery</Navbar.Link>
-          <Navbar.Link href="/contact" className="mt-3">Contact</Navbar.Link>
+          <Navbar.Link href="/shop" className="mt-3">
+            Shop
+          </Navbar.Link>
+          <Navbar.Link href="/gallery" className="mt-3">
+            Galery
+          </Navbar.Link>
+          <Navbar.Link href="/contact" className="mt-3">
+            Contact
+          </Navbar.Link>
           <Navbar.Link href="/login">
-            <Button className="custom-bg-color px-2">
-                Login
-              </Button>
+            <Button className="custom-bg-color px-2">Login</Button>
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

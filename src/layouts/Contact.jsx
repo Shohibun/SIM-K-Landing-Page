@@ -1,8 +1,8 @@
 import React from "react";
 import NavbarHome from "../components/Navbar";
-import Footer from "../components/Footer";
-import ContactJumbotron from "../pages/Contact-Jumbotron";
-import ContactContent from "../pages/Contact-Content";
+import FooterHome from "../components/Footer";
+import ContactJumbotron from "../pages/contact/Contact-Jumbotron";
+import ContactContent from "../pages/contact/Contact-Content";
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
       <NavbarHome />
       <ContactJumbotron />
       <ContactContent />
-      <Footer />
+      <FooterHome />
     </>
   );
 }

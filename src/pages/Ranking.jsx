@@ -10,10 +10,10 @@ export default function Ranking() {
       <div className="w-10/12">
         <h1 className="text-center font-bold text-4xl custom-font-color">Top Current Cosplayers</h1>
 
-        <div className="grid grid-cols-3 gap-2 mt-10">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-3 md:gap-4 gap-6 mt-10">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Azeyy"
               imgSrc={UserOne}
             >
@@ -26,9 +26,9 @@ export default function Ranking() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Senyamiku"
               imgSrc={UserTwo}
             >
@@ -41,9 +41,9 @@ export default function Ranking() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Tomiaa"
               imgSrc={UserThree}
             >

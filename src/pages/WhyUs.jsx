@@ -10,8 +10,8 @@ export default function WhyUs() {
             <div className="w-10/12">
                 <h1 className="text-center font-bold text-4xl custom-font-color">Why Us ?</h1>
 
-                <div className="grid grid-cols-4 gap-4 mt-10">
-                    <div className="col-span-1">
+                <div className="grid md:grid-cols-4 gap-4 mt-10">
+                    <div className="md:col-span-1">
                         <div className="border-2 p-5 rounded">
                             <img src={IconOne} alt="IconOne" className="w-10" />
 
@@ -25,7 +25,7 @@ export default function WhyUs() {
                         </div>
                     </div>
 
-                    <div className="col-span-1">
+                    <div className="md:col-span-1">
                         <div className="border-2 p-5 rounded">
                             <img src={IconTwo} alt="IconTwo" className="w-10" />
 
@@ -39,7 +39,7 @@ export default function WhyUs() {
                         </div>
                     </div>
 
-                    <div className="col-span-1">
+                    <div className="md:col-span-1">
                         <div className="border-2 p-5 rounded">
                             <img src={IconThree} alt="IconThree" className="w-10" />
 
@@ -53,7 +53,7 @@ export default function WhyUs() {
                         </div>
                     </div>
 
-                    <div className="col-span-1">
+                    <div className="md:col-span-1">
                         <div className="border-2 p-5 rounded">
                             <img src={IconFour} alt="IconFour" className="w-10" />
 

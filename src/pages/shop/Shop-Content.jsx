@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import BagOne from "../images/bag-1.jpeg";
-import BagTwo from "../images/bag-2.jpeg";
-import BagThree from "../images/bag-3.jpeg";
-import KeychainOne from "../images/keychain-1.jpeg";
-import KeychainTwo from "../images/keychain-2.jpeg";
-import KeychainThree from "../images/keychain-3.jpeg";
-import BraceletOne from "../images/bracelet-1.jpeg";
-import BraceletTwo from "../images/bracelet-2.jpeg";
-import BraceletThree from "../images/bracelet-3.jpeg";
+import BagOne from "../../images/bag-1.jpeg";
+import BagTwo from "../../images/bag-2.jpeg";
+import BagThree from "../../images/bag-3.jpeg";
+import KeychainOne from "../../images/keychain-1.jpeg";
+import KeychainTwo from "../../images/keychain-2.jpeg";
+import KeychainThree from "../../images/keychain-3.jpeg";
+import BraceletOne from "../../images/bracelet-1.jpeg";
+import BraceletTwo from "../../images/bracelet-2.jpeg";
+import BraceletThree from "../../images/bracelet-3.jpeg";
 import { Card, Dropdown, Pagination } from "flowbite-react";
 
 export default function ShopContent() {
@@ -39,10 +39,10 @@ export default function ShopContent() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-3 gap-4">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bag Shingeki No Kyoujin"
               imgSrc={BagOne}
             >
@@ -110,9 +110,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bag Naruto Akatsuki"
               imgSrc={BagTwo}
             >
@@ -172,9 +172,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bag Kimetsu No Yaiba"
               imgSrc={BagThree}
             >
@@ -235,10 +235,10 @@ export default function ShopContent() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-7">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-3 gap-4 mt-7">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Keychain Jujutsu Kaisen Gojo"
               imgSrc={KeychainOne}
             >
@@ -306,9 +306,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Keychain Naruto Uciha Itachi"
               imgSrc={KeychainTwo}
             >
@@ -368,9 +368,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Keychain One Piece Luffy"
               imgSrc={KeychainThree}
             >
@@ -439,10 +439,10 @@ export default function ShopContent() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-7">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-3 gap-4 mt-7">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bracelet Shingeki No Kyoujin"
               imgSrc={BraceletOne}
             >
@@ -494,9 +494,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bracelet One Piece Logo"
               imgSrc={BraceletTwo}
             >
@@ -564,9 +564,9 @@ export default function ShopContent() {
             </Card>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1">
             <Card
-              className="max-w-sm"
+              className="w-full"
               imgAlt="Bracelet Naruto Akatsuki"
               imgSrc={BraceletThree}
             >

@@ -7,7 +7,7 @@ export default function Register() {
   return (
     <div className="container">
       <div className="grid grid-cols-2">
-        <div className="col-span-1">
+        <div className="col-span-1 custom-display">
           <img
             src={BgRegister}
             alt="BackgroundRegister"
@@ -15,10 +15,10 @@ export default function Register() {
           />
         </div>
 
-        <div className="col-span-1 flex justify-center items-center">
-          <div className="border-2 rounded px-5 py-10 shadow-lg">
+        <div className="md:col-span-1 col-span-2 p-10 flex justify-center items-center">
+          <div className="md:border-2 md:rounded md:px-5 md:py-10 md:shadow-lg">
             <div className="text-center">
-              <h5 className="font-bold text-3xl">Register</h5>
+              <h5 className="font-bold text-3xl md:mt-0 mt-8">Register</h5>
               <p className="text-sm mt-2">
                 Hi, would you like to create an account ?{" "}
               </p>{" "}
@@ -34,7 +34,7 @@ export default function Register() {
 
               <div>
                 <div className="mb-2 block">
-                  <Label htmlFor="email1" value="Your email" />
+                  <Label htmlFor="email1" value="Email" />
                 </div>
                 <TextInput
                   id="email1"
@@ -46,7 +46,7 @@ export default function Register() {
 
               <div>
                 <div className="mb-2 block">
-                  <Label htmlFor="password1" value="Your password" />
+                  <Label htmlFor="password1" value="Password" />
                 </div>
                 <TextInput id="password1" type="password" required />
               </div>

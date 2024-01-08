@@ -10,14 +10,16 @@ export default function About() {
         </h1>
         <p className="text-center text-base mt-2">MORE ABOUT US</p>
 
-        <p className="text-center text-sm mt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod odio
-          deleniti molestias, voluptatem quas modi <br /> obcaecati repudiandae,
-          ipsa, iste quam? Quis inventore, dolor repellat quos laudantium neque
-          pariatur <br /> ducimus soluta amet, hic, ex optio?
-        </p>
+        <div className="md:w-5/12 w-10/12 mx-auto">
+          <p className="text-center text-sm mt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod
+            odio deleniti molestias, voluptatem quas modi obcaecati repudiandae,
+            ipsa, iste quam? Quis inventore, dolor repellat quos laudantium
+            neque pariatur ducimus soluta amet, hic, ex optio?
+          </p>
+        </div>
 
-        <img src={Signature} alt="signature" className="mx-auto w-2/5" />
+        <img src={Signature} alt="signature" className="mx-auto md:w-1/5 w-2/5" />
       </div>
     </div>
   );

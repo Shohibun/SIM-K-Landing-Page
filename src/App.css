@@ -11,7 +11,16 @@
 }
 
 .custom-bg-color {
-    background-color: #0e7590;
+  background-color: #0e7590;
+}
+
+.custom-bg-auth {
+  height: 100vh;
+  width: 100%;
+}
+
+.custom-heigt-corousel {
+  height: 400px;
 }
 
 .custom-bg-jumbotron {
@@ -30,7 +39,12 @@
   height: 60vh;
 }
 
-.custom-bg-auth {
-  height: 100vh;
-  width: 100%;
+@media only screen and (max-width: 600px) {
+  .custom-bg-jbt-fiture {
+    height: 100vh;
+  }
+
+  .custom-display {
+    display: none;
+  }
 }

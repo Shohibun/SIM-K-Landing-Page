@@ -1,8 +1,8 @@
 import React from "react";
 import NavbarHome from "../components/Navbar";
-import Footer from "../components/Footer";
-import ProfileJumbotron from "../pages/Profile-Jumbotron";
-import ProfileContent from "../pages/Profile-Content";
+import FooterHome from "../components/Footer";
+import ProfileJumbotron from "../pages/profile/Profile-Jumbotron";
+import ProfileContent from "../pages/profile/Profile-Content";
 
 export default function Profile() {
   return (
@@ -10,7 +10,7 @@ export default function Profile() {
       <NavbarHome />
       <ProfileJumbotron />
       <ProfileContent />
-      <Footer />
+      <FooterHome />
     </>
   );
 }

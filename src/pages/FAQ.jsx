@@ -5,8 +5,8 @@ export default function FAQ() {
   return (
     <div className="container flex justify-center items-center mt-28">
       <div className="w-10/12">
-        <div className="grid grid-cols-2 gap-4">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="md:col-span-1">
             <h1 className="font-bold text-4xl custom-font-color">
               Frequently Asked Question
             </h1>
@@ -16,7 +16,7 @@ export default function FAQ() {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="md:col-span-1 mt-2">
             <Accordion>
               <Accordion.Panel>
                 <Accordion.Title className="text-sm">
