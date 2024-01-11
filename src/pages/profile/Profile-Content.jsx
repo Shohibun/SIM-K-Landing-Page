@@ -1,6 +1,13 @@
 import React from "react";
 import User from "../../images/user-profile.jpeg";
-import { Button, Datepicker, Label, Radio, TextInput } from "flowbite-react";
+import {
+  Button,
+  Datepicker,
+  FileInput,
+  Label,
+  Radio,
+  TextInput,
+} from "flowbite-react";
 import { HiMail } from "react-icons/hi";
 
 export default function ProfileContent() {
@@ -20,14 +27,18 @@ export default function ProfileContent() {
                 className="w-10/12 rounded-full mx-auto"
               />
 
-              <TextInput
-                id="image"
-                name="image"
-                type="file"
-                className="w-8/12 mt-4 mx-auto"
-                required
-                shadow
-              />
+              <div className="w-3/5 mx-auto mt-4">
+                <div>
+                  <Label
+                    htmlFor="file-upload-helper-text"
+                    value="Upload file"
+                  />
+                </div>
+                <FileInput
+                  id="file-upload-helper-text"
+                  helperText="SVG, PNG, JPG or GIF (MAX. 800x400px)."
+                />
+              </div>
             </div>
 
             <div className="md:col-span-6">
@@ -116,7 +127,9 @@ export default function ProfileContent() {
             </div>
           </div>
 
-          <Button className="custom-bg-color w-80 py-1 mx-auto mt-8">Save</Button>
+          <Button className="custom-bg-color w-80 py-1 mx-auto mt-8">
+            Save
+          </Button>
         </form>
       </div>
     </div>

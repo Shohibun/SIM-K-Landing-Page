@@ -8,6 +8,7 @@ import Gallery from "./layouts/Gallery";
 import Shop from "./layouts/Shop";
 import Contact from "./layouts/Contact";
 import Profile from "./layouts/Profile";
+import ShopProduct from "./layouts/Shop-Product";
 
 // Responsive Tailwind:
 // 1. Langsung berukuran mobile
@@ -15,7 +16,7 @@ import Profile from "./layouts/Profile";
 // 3. Penggunan responsive pada tailwind dengan cara menggunakan container di nomer 2
 // 4. Jika menggunakan md, maka ukuran layer 768px keatas akan terresponsive dan berlaku pada tampilan dekstop
 
-// Responsive Query: 
+// Responsive Query:
 // 1. @media only screen and (max-width: 600px) {...} -> “Jika [lebar perangkat] kurang dari atau sama dengan 600 piksel, lakukan {...}.”
 // 2. @media only screen and (min-width: 600px) {...} -> “Jika [lebar perangkat] lebih besar dari atau sama dengan 600 piksel, lakukan {...}“
 
@@ -28,6 +29,7 @@ function App() {
         <Route path={"/register"} element={<Register />} />
         <Route path={"/gallery"} element={<Gallery />} />
         <Route path={"/shop"} element={<Shop />} />
+        <Route path={"/shop-product"} element={<ShopProduct />} />
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/profile"} element={<Profile />} />
       </Routes>

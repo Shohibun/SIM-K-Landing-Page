@@ -10,6 +10,7 @@ import BraceletOne from "../../images/bracelet-1.jpeg";
 import BraceletTwo from "../../images/bracelet-2.jpeg";
 import BraceletThree from "../../images/bracelet-3.jpeg";
 import { Card, Dropdown, Pagination } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 export default function ShopContent() {
   const onPageChange = 0;
@@ -100,12 +101,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $299
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -162,12 +163,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $499
                 </span>
-                <a
-                  href="#"
+                <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -224,12 +225,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $199
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -296,12 +297,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $99
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -358,12 +359,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $79
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -428,12 +429,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $129
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -484,12 +485,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $39
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -554,12 +555,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $79
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
@@ -616,12 +617,12 @@ export default function ShopContent() {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   $89
                 </span>
-                <a
-                  href="#"
+                 <Link
+                  to={"/shop-product"}
                   className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                 >
-                  Buy
-                </a>
+                  Product
+                </Link>
               </div>
             </Card>
           </div>
