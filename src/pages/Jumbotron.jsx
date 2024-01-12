@@ -4,7 +4,7 @@ export default function Jumbotron() {
   return (
     <div className="continer custom-bg-jumbotron flex justify-center items-center">
       <div className="text-center">
-        <h1 className="text-white font-bold text-5xl">Liosa Cosplayer</h1>
+        <h1 className="text-white font-bold text-5xl">Liosa Cosplay</h1>
 
         <div className="md:w-5/12 w-10/12 mx-auto">
           <p className="text-white text-sm mt-4">
